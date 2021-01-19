@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="overview">Overview</string>
+    <string name="_2000">2000</string>
+    <string name="_20_01_2021">20-01-2021</string>
+    <string name="_200_min">200 min</string>
+    <string name="action_crime">Action | Crime</string>
+    <string name="stander_fordd">Stander Fordd</string>
+</resources>

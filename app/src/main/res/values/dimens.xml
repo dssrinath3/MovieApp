@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standerd_half">8dp</dimen>
+    <dimen name="standerd_quart">4dp</dimen>
+    <dimen name="standerd">16dp</dimen>
+</resources>

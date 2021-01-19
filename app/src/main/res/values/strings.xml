@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Trending Movies</string>
+    <string name="overview">Overview</string>
+    <string name="_2000">2000</string>
+    <string name="_20_01_2021">20-01-2021</string>
+    <string name="_200_min">200 min</string>
+    <string name="action_crime">Action | Crime</string>
+    <string name="stander_fordd">Stander Fordd</string>
+    <string name="format_runtime">%1$d min</string>
+    <string name="retry">Retry</string>
+    <string name="error_message">Error Message....</string>
+</resources>

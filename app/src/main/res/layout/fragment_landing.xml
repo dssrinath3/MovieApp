@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".trendingmovies.ui.landing.LandingFragment">
+
+   <com.google.android.material.appbar.AppBarLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+      
+      <com.google.android.material.appbar.MaterialToolbar
+          android:layout_width="match_parent"
+          android:layout_height="?attr/actionBarSize"
+          app:title="@string/app_name"/>
+   </com.google.android.material.appbar.AppBarLayout>
+
+   <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+       android:id="@+id/srl"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/rvMovie"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:clipToPadding="false"
+          android:padding="@dimen/standerd_half"
+          tools:listitem="@layout/item_movie"/>
+
+   </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+   <include layout="@layout/layout_error"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
